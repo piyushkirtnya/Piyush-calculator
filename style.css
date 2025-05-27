@@ -77,18 +77,18 @@ form .display input{
     flex: 1;
     font-size: 45px;
 }
-form .equal{
+form input.equal{
     color: aqua;
     width: 145px;
 }
 @media screen and (max-width:450px) {
-    form .equal {
+    form input.equal {
         width: 103px;
     }
 }
 
 @media screen and (max-width:350px) {
-    form .equal {
+    form input.equal {
         width: 55px;
     }
 }
