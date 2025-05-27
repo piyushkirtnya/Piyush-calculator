@@ -82,11 +82,13 @@ form .equal{
     width: 145px;
 }
 @media screen and (max-width:450px) {
-    form .equal{
+    form .equal {
         width: 103px;
     }
-}@media screen and (max-width:350px) {
-    form .equal{
+}
+
+@media screen and (max-width:350px) {
+    form .equal {
         width: 55px;
     }
-} 
+}
