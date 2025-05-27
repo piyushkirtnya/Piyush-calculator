@@ -21,7 +21,9 @@
     padding: 20px;
 
 }
-
+.calculator form{
+        caret-color: transparent;
+}
 form input{
     border: 0px;
     outline: 0px;
