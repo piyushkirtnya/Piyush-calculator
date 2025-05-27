@@ -21,10 +21,16 @@
     padding: 20px;
 
 }
-.calculator form{
-        caret-color: transparent;
-}
 
+.calculator form{
+    caret-color: transparent;
+}
+@media screen and (max-width:450px) {
+    .calculator{
+        padding: 10px;
+        margin:10px;
+    }
+}
 form input{
     border: 0px;
     outline: 0px;
@@ -38,6 +44,12 @@ form input{
     margin: 10px;
     font-size: 20px;
     text-align: center;
+}
+@media screen and (max-width:450px) {
+    form input{
+        width: 40px;
+        height: 40px;
+    }
 }
 form .display{
     display: flex;
